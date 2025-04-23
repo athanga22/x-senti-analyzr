@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.neon-border {
+  box-shadow:
+    0 0 8px #0ff,
+    0 0 16px #0ff,
+    0 0 24px #0ff;
+  border: 1px solid #0ff;
+}

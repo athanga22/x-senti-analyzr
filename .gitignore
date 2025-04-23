@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# IDE/editor folders
+.idea/
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and local config
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Unit test cache
+*.pytest_cache/
+.pytest_cache/
+.tox/
+coverage/
+
+# MyPy type checker
+.mypy_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
